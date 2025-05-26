@@ -7,7 +7,7 @@ public class ContaTerminal {
         System.out.println("Bem-vindo ao banco Java!");
 
         // Bloco para coleta de Informações do Usuário
-        System.out.println("Para Inciar, digite seu Nome Completo: ");
+        System.out.println("Para Iniciar, digite seu Nome Completo: ");
         String nomeCliente = scanner.nextLine();
 
         System.out.println("Bem Vindo, " + nomeCliente + ". Por favor, digite o número da Agência: ");
@@ -19,7 +19,7 @@ public class ContaTerminal {
         System.out.println("Saldo atual: ");
         double saldo = scanner.nextDouble();
 
-        // Interface de Exbição das informações do cliente:
+        // Interface de Exibição das informações do cliente:
         System.out.println("====== DADOS DA CONTA ======");
         System.out.println("Olá, " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é: "
         + agencia + ", conta " + numero + " e seu saldo de R$" + saldo + " já está disponível para saque!");
